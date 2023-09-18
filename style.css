@@ -137,7 +137,7 @@ ul {
   ul li {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #333;
+    background-color: #242628;
     border-radius: 5px;
   }
   
@@ -194,7 +194,7 @@ ul {
 }
 
 .member {
-    width: 200px;
+    width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 300px;
     background: white;
@@ -209,6 +209,22 @@ ul {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.member .description {
+    display: flex;
+}
+.member .description a  {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.member .description p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .left-to-right {
