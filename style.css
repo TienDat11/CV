@@ -227,6 +227,10 @@ ul {
     font-weight: bold;
 }
 
+a{
+    cursor: pointer;
+}
+
 .left-to-right {
     transform: translateX(-100%);
     transition: 1s;
